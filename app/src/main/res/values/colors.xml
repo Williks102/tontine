@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <!-- Couleurs principales TONTINE PRO -->
+    <color name="tontine_blue">#6B73FF</color>
+    <color name="tontine_purple">#764BA2</color>
+    <color name="tontine_green">#51CF66</color>
+    <color name="tontine_orange">#FFD43B</color>
+    <color name="tontine_red">#FF6B6B</color>
+
+    <!-- Couleurs système -->
+    <color name="colorPrimary">@color/tontine_blue</color>
+    <color name="colorPrimaryDark">#5B63FF</color>
+    <color name="colorAccent">@color/tontine_green</color>
+
+    <!-- Couleurs de fond -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#1A1A1A</color>
+    <color name="surface_light">#F8F9FA</color>
+    <color name="surface_dark">#2D2D2D</color>
+
+    <!-- Couleurs de texte -->
+    <color name="text_primary_light">#212529</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_light">#6C757D</color>
+    <color name="text_secondary_dark">#ADB5BD</color>
+</resources>
