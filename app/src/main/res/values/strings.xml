@@ -1,3 +1,27 @@
+<!-- Ajouter dans app/src/main/res/values/strings.xml -->
 <resources>
-    <string name="app_name">tontinepro</string>
+    <string name="app_name">TONTINE PRO</string>
+    
+    <!-- Inscription -->
+    <string name="inscription_titre">Inscription TONTINE PRO</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="email">Email</string>
+    <string name="phone">Téléphone (optionnel)</string>
+    <string name="date_naissance">Date de naissance</string>
+    <string name="formule">Choisir une formule</string>
+    <string name="prendre_photo">Prendre une photo</string>
+    <string name="modifier_photo">Modifier la photo</string>
+    <string name="code_parrain">Code de parrainage (optionnel)</string>
+    <string name="conditions_accepter">J\'ai lu et j\'accepte les Conditions Générales</string>
+    <string name="sinscrire">S\'INSCRIRE</string>
+    
+    <!-- Messages -->
+    <string name="nom_requis">Le nom est requis</string>
+    <string name="prenom_requis">Le prénom est requis</string>
+    <string name="email_requis">L\'email est requis</string>
+    <string name="date_naissance_requise">La date de naissance est requise</string>
+    <string name="photo_requise">Veuillez prendre une photo</string>
+    <string name="conditions_requises">Vous devez accepter les conditions générales</string>
+    <string name="permission_camera_requise">Permission caméra requise</string>
 </resources>

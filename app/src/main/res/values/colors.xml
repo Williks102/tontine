@@ -24,4 +24,8 @@
     <color name="text_primary_dark">#FFFFFF</color>
     <color name="text_secondary_light">#6C757D</color>
     <color name="text_secondary_dark">#ADB5BD</color>
+	
+	<color name="background_light">#FFFFFF</color>
+    <color name="text_primary_light">#212529</color>
+    <color name="text_secondary_light">#6C757D</color>
 </resources>
