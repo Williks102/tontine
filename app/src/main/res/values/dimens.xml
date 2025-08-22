@@ -1,0 +1,10 @@
+<resources>
+    <!-- Dimensions générales pour les espacements -->
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+
+    <!-- Dimensions spécifiques aux boutons (peuvent être réutilisées) -->
+    <dimen name="button_default_height">56dp</dimen>
+    <dimen name="button_corner_radius_default">28dp</dimen> <!-- Rayon pour un cercle parfait si hauteur=56dp -->
+    <dimen name="button_text_size_default">16sp</dimen>
+</resources>

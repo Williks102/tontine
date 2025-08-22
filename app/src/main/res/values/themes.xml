@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.YourApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Attributs primaires de la marque -->
+        <item name="colorPrimary">@color/tontine_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Autres attributs de thème -->
+
+        <!-- Style personnalisé pour les boutons principaux de l'application -->
+        <item name="materialButtonStyle">@style/Widget.App.Button.Primary</item>
+    </style>
+
+    <!-- Style spécifique pour les boutons primaires -->
+    <style name="Widget.App.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <!-- android:layout_height est déjà dans le layout car il peut varier,
+             mais pourrait être mis ici si tous les boutons primaires ont la même hauteur. -->
+        <item name="android:textSize">@dimen/button_text_size_default</item>
+        <item name="android:textStyle">bold</item>
+        <!-- backgroundTint utilisera par défaut colorPrimary si non spécifié ici,
+             grâce à l'héritage de Widget.MaterialComponents.Button et à la définition de colorPrimary dans le thème.
+             Si vous voulez une couleur spécifique différente de colorPrimary pour CE style de bouton, décommentez :
+        <item name="backgroundTint">@color/une_autre_couleur_pour_ce_style</item>
+        -->
+        <item name="cornerRadius">@dimen/button_corner_radius_default</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">@dimen/spacing_medium</item>
+        <item name="android:paddingRight">@dimen/spacing_medium</item>
+    </style>
+</resources>
